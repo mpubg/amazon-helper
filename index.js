@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 // US + CA marketplaces
 const marketplaces = [
   { country: "US", marketplace: "www.amazon.com", tag: shreejagann0f-20 },
-  { country: "CA", marketplace: "www.amazon.ca", tag: process.env.PARTNER_TAG }, // same tag
+  { country: "CA", marketplace: "www.amazon.ca", tag: shreejagann0f-20 }, // same tag
 ];
 
 app.get("/lookup", async (req, res) => {
